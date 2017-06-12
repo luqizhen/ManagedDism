@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Microsoft.Dism")]
-[assembly: AssemblyDescription("Managed API for Deployment Image Servicing and Management (DISM)")]
-
+[assembly: ComVisible(false)]
 [assembly: InternalsVisibleTo("Microsoft.Dism.Tests")]
